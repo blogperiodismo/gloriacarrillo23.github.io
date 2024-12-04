@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artículos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #dad1cd;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 22%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #777;
+      margin: 0;
+    }
+
+    .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #556877;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #e5dfd8;
+        }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <p align="center"><a href="index.html" class="button">Inicio</a></p>
+
+  <div class="card-container">
+    <div class="card">
+      <a href="Artículo uno.html"><img src="Imagenes diseño/Supermercado.png" alt="Descripción de la imagen">
+      <div class="card-content">
+        <h3>Robos hormigas en las tiendas de autoservicios.</h3>
+        <p>23 de noviembre de 2024</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Política Uno.html"><img src="Imagenes diseño/Politica1.png" alt="Descripción de la imagen">
+      <div class="card-content">
+        <h3>Gobernador de Zacatecas va con todo</h3>
+        <p>18 de noviembre de 2024</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Política dos.html"><img src="Imagenes diseño/Politica2.png" alt="Descripción de la imagen">
+      <div class="card-content">
+        <h3>Reclama sus derechos desde la cárcel: Argentino en apuros</h3>
+        <p>23 de noviembre de 2024</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Cultura.html"><img src="Imagenes diseño/cultura.png" alt="Descripción de la imagen">
+      <div class="card-content">
+        <h3>Apoyo al talento mexicano, la Mandataria dará una solución</h3>
+        <p>21 de noviembre de 2024</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
